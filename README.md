@@ -2,8 +2,7 @@
 
 ![](https://komarev.com/ghpvc/?username=devmiano&color=green&style=for-the-badge)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kooya3&theme=tokyonight_duo&hide_border=true&border_radius=6.6&date_format=%5BY.%5Dn.j&mode=weekly&sideNums=EB5454&background=0B0B39&border=52EBD9&stroke=EB576D)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://streak-stats.demolab.com?user=Kooya3&theme=submarine-flowers&border_radius=5&date_format=j%2Fn%5B%2FY%5D)](https://git.io/streak-stats)
 
 
 - 🔭 I’m currently working on a home workout webapp
