@@ -5,7 +5,6 @@ import { exerciseOptions, fetchData } from '../utils/fetchData';
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const [search, setSearch] = useState('');
   const [bodyParts, setBodyParts] = useState([]);
-  const [exercises, setExercises] = useState([]);
 
   useEffect(() => {
     const fetchExercisesData = async () => {
