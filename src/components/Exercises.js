@@ -9,6 +9,16 @@ import Loader from './Loader';
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const exercisesPerPage = 12;
+
+  const indexOfLastExercise = currentPage * exercisesPerPage;
+  const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
+  const currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
+
+  const paginate = (e, value) => {
+    setCurrentPage(value);
+
+    window.scrollTo({ top: 1800, behaviour: 'smooth'})
+  }
   
   return (
     <Box id="exercises" sx={{mt: { lg: '110px'}}} mt="50px" p="20px">
@@ -25,7 +35,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         <Pagination color="standard"
         shape="rounded"
         defaultPage={1}
-        count={math.ceil(exercises.length / 12)}
+        count={math.ceil(exercises.length / exercisesPerPage)}
         /* exercise number is 12 per page */
         page={currentPage}
         onChange={paginate}
