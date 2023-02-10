@@ -5,13 +5,34 @@ import { exerciseOptions, fetchData } from '../utils/fetchData';
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const [search, setSearch] = useState('');
   const [bodyParts, setBodyParts] = useState([]);
+  const [exercises, setExercises] = useState([]);
+
+  useEffect(() => {
+    const fetchExercisesData = async () => {
+      const bodyPartsData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
+    
+      setBodyParts(['all', ...bodyPartsData]);
+    }
+    fetchExercisesData();
+  }, [])
 
   const handleSearch = async () => {
     if(search) {
       const exerciseData = await fetchData(
-        'https://exercisedb.p.rapidapi.com/exercises/bodyPartList',
+        'https://exercisedb.p.rapidapi.com/exercises',
         exerciseOptions);
+
+        const searchedExercises = exercisesData.filter(
+          (exrcise) => exercise.name.toLowerCase().includes(search)
+                 || exercise.target.toLowerCase().includes(search)
+                 || exercise.equipment.toLowerCase().includes(search)
+                 || exercise.bodyPart.toLowerCase().includes(search),
+        );
       //if the search does exist, fetch the data
+      window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
+
+      setSearch('');
+      setExercises(searchedExercises);
     }
   }
 
