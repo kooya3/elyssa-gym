@@ -5,6 +5,12 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const [search, setSearch] = useState('');
   const [bodyParts, setBodyParts] = useState([]);
 
+  const handleSearch = async () => {
+    if(search) {
+      //if the search does exist, fetch the data
+    }
+  }
+
    return (
      <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
       <Typography fontWeight={700} sx={{fontSize: { lg: '45px', xs: '30px'}}} mb="46px" textAlign="center">
