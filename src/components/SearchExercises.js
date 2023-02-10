@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Button, Stack, TextField, Typography } from '@mui/material';
- 
+import { exerciseOptions, fetchData } from '../utils/fetchData';
+
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const [search, setSearch] = useState('');
   const [bodyParts, setBodyParts] = useState([]);
 
   const handleSearch = async () => {
     if(search) {
+      const exerciseData = await fetchData(
+        'https://exercisedb.p.rapidapi.com/exercises/bodyPartList',
+        exerciseOptions);
       //if the search does exist, fetch the data
     }
   }
