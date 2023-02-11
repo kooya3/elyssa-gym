@@ -8,6 +8,18 @@ import SimilarExercises from '../components/SimilarExercises';
 
 
 const ExerciseDetail = () => {
+  const [ ExerciseDetail, setExerciseDetail ] = useState({});
+  const { id } = useParams();
+
+  useEffect(() => {
+    const fetchExercisesData = async () => {
+      const exerciseDbUrl = 'https://exercisedb.p.rapidapi.com';
+    }
+
+    fetchExercisesData();
+  }, [id]);
+
+
   return (
     <Box>
       <Detail />
