@@ -21,8 +21,18 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
           >
             <img style={{ borderTopLeftRadius: '20px' }} src={item.video.thumbnails[0].url} alt={item.video.title} />
             <Box>
+              <Typography sx={{ fontSize: { lg: '28px', xs: '18px' } }} fontWeight={600} color="#000">
+                {item.video.title}
+              </Typography>
+              <Typography fontSize="14px" color="#000">
+                {item.video.channelName}
+              </Typography>
+            </Box>
+          </a>
+        ))}
+      </Stack>
     </Box>
-  )
-}
+  );
+};
 
-export default ExerciseVideo
+export default ExerciseVideos;
