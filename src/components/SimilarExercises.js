@@ -19,6 +19,8 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
       {equipmentExercises.length !== 0 ? <HorizontalScrollbar data={equipmentExercises} /> : <Loader />}
     </Stack>
   </Box>
+
+  
 );
 
 export default SimilarExercises
