@@ -8,4 +8,4 @@ const Loader = () => (
     </Stack>
 );
 
-export default Loader
+export default Loader;

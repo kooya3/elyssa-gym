@@ -1,8 +1,8 @@
 import React from 'react'
-
-const Footer = () => {
-  return (
-    <div>Footer</div>
+import { Box, Stack, Typography } from '@mui/material';
+import Logo from '../assets/images/Logo-1.png';
+const Footer = () => (
+  <Box mt="80px" bgcolor="#FFF3F4">
   )
 }
 
