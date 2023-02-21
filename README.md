@@ -2,9 +2,6 @@
 
 ![](https://komarev.com/ghpvc/?username=devmiano&color=green&style=for-the-badge)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kooya3&theme=submarine-flowers&border_radius=5&date_format=j%2Fn%5B%2FY%5D)](https://git.io/streak-stats)
-
-
 - 🔭 I’m currently working on a home workout webapp
 - 🌱 I’m currently learning Nextjs
 - 👯 I’m looking to collaborate on creating an intergrated AI system
