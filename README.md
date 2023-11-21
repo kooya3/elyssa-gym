@@ -1,17 +1,3 @@
-### Hi there👋 I'm elyees 🧸 
-
-![](https://komarev.com/ghpvc/?username=devmiano&color=green&style=for-the-badge)
-
-- 🔭 I’m currently working on a home workout webapp
-- 🌱 I’m currently learning Nextjs
-- 👯 I’m looking to collaborate on creating an intergrated AI system
-- 🤔 I’m looking for help with creating payment processing systems
-- 💬 Ask me about React
-- 📫 How to reach me: email me @ elyeestatua@gmail.com
-- 😄 Pronouns: He
-- ⚡ Fun fact: I'm a junior developer with less than 3 years experience
-
-
   # Project Outlook
  >> ![localhost_3000_ (1)](https://user-images.githubusercontent.com/84116117/218280269-5d0dbf4b-df08-4759-a800-d5f2d326a3a4.png)
 > This is a home workout webapp with numerous variations of exercises in GIF format built using RapidAPI & React mostly
