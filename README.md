@@ -1,4 +1,4 @@
-  # Project Outlook
+  # Project Out
  >> ![localhost_3000_ (1)](https://user-images.githubusercontent.com/84116117/218280269-5d0dbf4b-df08-4759-a800-d5f2d326a3a4.png)
 > This is a home workout webapp with numerous variations of exercises in GIF format built using RapidAPI & React mostly
 
