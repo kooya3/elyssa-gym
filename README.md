@@ -23,7 +23,7 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 
  - [npm start](#npm-start)
   - [npm run build](#npm-run-build)
-  - [npm run eject](#npm-run-eject)
+  
 
 
 ### `npm start`
