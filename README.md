@@ -1,5 +1,5 @@
   # Gym 🥋 Library 
- > ![localhost_3000_ (1)](https://user-images.githubusercontent.com/84116117/218280269-5d0dbf4b-df08-4759-a800-d5f2d326a3a4.png)
+ >> ![localhost_3000_ (1)](https://user-images.githubusercontent.com/84116117/218280269-5d0dbf4b-df08-4759-a800-d5f2d326a3a4.png)
 > This is a home workout webapp with numerous variations of exercises in GIF format built using RapidAPI & React mostly
 
 make sure to test it out and help me make it better with your feedback.
@@ -22,7 +22,6 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 
 
  - [npm start](#npm-start)
-  - [npm test](#npm-test)
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
 
