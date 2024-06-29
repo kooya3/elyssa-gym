@@ -11,11 +11,6 @@ make sure to test it out and help me make it better with your feedback.
 * `react-scripts` is a development dependency in the generated projects (including this one).
 
   
-
- 
-
- versions.
-
 In most cases bumping the `react-scripts` version in `package.json` and running `npm install` in this folder should be enough, but it’s good to consult the [changelog](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md) for potential breaking changes.
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
