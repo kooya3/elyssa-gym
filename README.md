@@ -14,7 +14,7 @@ make sure to test it out and help me make it better with your feedback.
 
  
 
-    for the newer versions.
+ versions.
 
 In most cases bumping the `react-scripts` version in `package.json` and running `npm install` in this folder should be enough, but it’s good to consult the [changelog](https://github.com/facebookincubator/create-react-app/blob/master/CHANGELOG.md) for potential breaking changes.
 
